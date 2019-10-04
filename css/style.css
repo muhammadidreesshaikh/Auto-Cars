@@ -38,3 +38,418 @@ a{
 {
     display: none;
 }
+
+.top-bar
+{
+    padding: 4% 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #151313;
+}
+
+.top-bar .logo1 a
+{
+    font-size: 25px;
+    color: white;
+    font-family: serif;
+}
+
+.top-bar .nav
+{
+    float: right;
+    padding-top: 8px;
+}
+
+.top-bar .nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.top-bar .nav li a
+{
+    color: white;
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+}
+
+.top-bar .nav a:hover
+{
+   border-bottom: 3px solid red;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.top-bar .nav .btn1
+{
+    margin-left: 10px;
+}
+
+.top-bar .nav .btn1 a
+{
+    color: white;
+    background-color: #2bb673;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px 30px 7px 30px;
+    font-size: 16px;
+}
+
+.top-bar .nav .btn1 a:hover
+{
+    background-color: red;
+    color: #fff;
+    opacity: 0,5s;
+    transition: 0.5s;
+}
+
+.top-bar .slider
+{
+    padding-top: 10%;
+}
+
+.top-bar .slider .heading1 h1
+{ 
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.top-bar .slider h1 span
+{
+    color: red;
+}
+
+.top-bar .slider .btn2
+{
+    margin-top: 10%;
+    margin-right: 10px;
+}
+
+.top-bar .slider .btn2 a.active 
+{
+    color: white;
+    background-color: #2bb673;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px 30px 7px 30px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.top-bar .slider .btn2 a.active:hover
+{
+    background-color: red;
+    color: #fff;
+    opacity: 0,5s;
+    transition: 0.5s;
+}
+
+.top-bar .slider .btn2 a
+{
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px 30px 7px 30px;
+    font-size: 16px;
+}
+
+.top-bar .slider .btn2 a:hover
+{
+    background-color: #2bb673;
+    color: #fff;
+    opacity: 0,5s;
+    transition: 0.5s;
+}
+
+.top-bar .slider .img1 img
+{
+    width: 110%;
+    transform: translate(10px, -20px);
+}
+
+/* dropdown buttn */
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+   .dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+    .parent li>a:hover  .dropdown-content {display: block;}
+
+.sidenav 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+    
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+    
+.sidenav a:hover 
+{
+    color: orange;
+}
+      
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+      
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.mobile-nav
+{
+    display: none;
+}  
+
+    
+.openbtn, .closebtn
+{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.openbtn
+{
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+    display: none;
+}
+
+.top-bar .mobile-nav .icon1
+{
+    margin: 10% 0px 0 20%;
+    display: flex;
+}
+
+.top-bar .mobile-nav .icon1 i
+{
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .top-bar .nav .btn1 a
+{
+    color: white;
+    background-color: #2bb673;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 7px 30px 7px 30px;
+    font-size: 16px;
+}
+
+.top-bar .nav .btn1 a:hover
+{
+    background-color: red;
+    color: #fff;
+    opacity: 0,5s;
+    transition: 0.5s;
+} */
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px)
+{
+
+}
+
+@media screen and (max-width: 1366px)
+{
+    
+}
+
+@media screen and (max-width: 768px)
+{
+    .top-bar
+    {
+        padding: 5% 0;
+
+    }
+
+    .top-bar .logo1 a
+    {
+        font-size: 25px;
+    }
+
+    .top-bar .nav
+    {
+        padding-top: 5px;
+    }
+
+    .top-bar .nav li a
+    {
+        padding: 0 10px 0 10px;
+        font-size: 14px;
+    }
+
+    .top-bar .slider .heading1 h1
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .top-bar .slider .btn2
+    {
+        margin-left: 10%;
+    }
+
+    .top-bar .slider .btn2 a.active
+    {
+        padding: 5px 25px 5px 25px;
+    }
+
+    .top-bar .slider .btn2 a
+    {
+        padding: 5px 25px 5px 25px;
+    }
+
+    .top-bar .slider .img1 img
+    {
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 600px)
+{
+    .openbtn
+    {
+        display: block;
+    }
+
+    .mobile-nav
+    {
+        display: block;
+    }
+
+    .top-bar
+    {
+        padding: 5% 0;
+        text-align: center;
+    }
+
+    .top-bar .logo1
+    {
+        padding-top: 5px;
+    }
+
+    .top-bar .nav
+    {
+        display: none;
+    }
+
+    .top-bar .slider
+    {
+        padding-top: 15%;
+    }
+
+    .top-bar .slider .heading1 h1
+    {
+        font-size: 30px;
+        padding: 0px 20px;
+    }
+
+    .top-bar .slider .btn2
+    {
+        margin: 15% 0px 0px 20%;
+    }
+
+    .top-bar .slider .btn2 a.active
+    {
+        margin-right: 5px;
+    }
+
+    .top-bar .slider .img1 img
+    {
+        width: 100%;
+        transform: translate(0px, 60px);
+        position: relative;
+    }
+
+   
+}
+
+@media screen and (max-width: 425px)
+{
+    
+}
+
+@media screen and (max-width: 375px)
+{
+    
+}
