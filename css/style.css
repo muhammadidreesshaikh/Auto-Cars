@@ -271,13 +271,105 @@ a{
 
 .top-bar .mobile-nav .icon1
 {
-    margin: 10% 0px 0 20%;
+    margin: 10% 0px 0 15%;
     display: flex;
 }
 
 .top-bar .mobile-nav .icon1 i
 {
     font-size: 35px;
+}
+
+.search
+{
+    padding: 5% 0;
+    background-color: white;
+}
+
+.search .btn3
+{
+    margin-top: 10px;
+}
+
+.search .btn3 a
+{
+    color: white;
+    background-color: #2bb673;
+    border: 1px solid #2bb673;
+    border-radius: 6px;
+    padding: 10px 35px 10px 35px;
+    font-size: 16px;
+}
+
+
+.search .btn3 a:hover
+{
+    background-color: red;
+    color: #fff;
+    opacity: 0,5s;
+    transition: 0.5s;
+}
+
+.search select
+{
+    background-color: #676464;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.cars
+{
+    padding: 3% 0;
+}
+
+.cars .logos2 .img2 
+{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 5px 5px 5px;
+}
+
+.cars .logos2 .img2 a img
+{
+    width: 70%;
+    height: 40px;
+    transform: translate(10px, 0px);
+}
+
+.cars .logos2 .img2 a p
+{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.cars .logos3 
+{
+    margin: 3% 10% 0 10%;
+}
+
+.cars .logos3 .img2
+{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 5px 5px 5px;
+}
+
+.cars .logos3 .img2 a img
+{
+    width: 70%;
+    height: 40px;
+    transform: translate(10px, 0px);
+}
+
+.cars .logos3 .img2 a p
+{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
 }
 
 
@@ -353,6 +445,23 @@ a{
 
     .top-bar .nav li a
     {
+        padding: 2px 7px 0 7px;
+        font-size: 14px;
+    }
+
+    .top-bar .nav .btn1
+    {
+        margin-left: 5px;
+    }
+
+    .top-bar .nav .btn1 a
+    {
+        padding: 5px 20px 5px 20px;
+        font-size: 13px;
+    }
+
+    .top-bar .nav li a
+    {
         padding: 0 10px 0 10px;
         font-size: 14px;
     }
@@ -381,6 +490,29 @@ a{
     .top-bar .slider .img1 img
     {
         width: 100%;
+    }
+
+    .search select
+    {
+        padding: 10px 8px 10px 8px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .search .btn3
+    {
+        margin-top: 5px;
+    }
+
+    .search .btn3 a
+    {
+        padding: 10px 20px 10px 20px;
+        font-size: 10px;
+    }
+
+    .cars
+    {
+        display: none;
     }
    
 }
@@ -420,8 +552,8 @@ a{
 
     .top-bar .slider .heading1 h1
     {
-        font-size: 30px;
-        padding: 0px 20px;
+        font-size: 25px;
+        padding: 0px 15%;
     }
 
     .top-bar .slider .btn2
@@ -439,6 +571,27 @@ a{
         width: 100%;
         transform: translate(0px, 60px);
         position: relative;
+    }
+
+    .search
+    {
+        padding: 10% 0 10% 0;
+    }
+
+    .search select
+    {
+        margin-top: 10%;
+        width: 40%;
+    }
+
+    .search .btn3
+    {
+        margin-top: 10%;
+    }
+
+    .cars
+    {
+        display: none;
     }
 
    
