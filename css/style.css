@@ -372,6 +372,68 @@ a{
     padding-top: 5px;
 }
 
+.details
+{
+    background-color: white;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.details .wrapper1:hover
+{
+    box-shadow: 3px 3px 4px gray;
+    transition: 0.5s;
+    opacity: 0.5s;
+    padding: 10% 0 0% 0;
+}
+
+.details .wrapper1 a i
+{
+    font-size: 40px;
+    color: red;
+}
+
+.details .wrapper1 h5
+{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10%;
+    margin-bottom: 0;
+    color: black;
+}
+
+
+.details .wrapper1 p
+{
+    color: #888484;
+    margin-bottom: 0;
+    font-size: 14px;
+    padding: 5% 0 0 0;
+}
+
+.details .wrapper1 .btn4
+{
+    margin-top: 10%;
+}
+
+.details .wrapper1 .btn4 a
+{
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    background-color: #ff2020;
+    font-size: 15px;
+}
+
+.details .wrapper1 .btn4 a:hover
+{
+    opacity: 0.5s;
+    transition: 0.5s;
+    background-color: black;
+}
+
+
 
 
 
@@ -514,6 +576,26 @@ a{
     {
         display: none;
     }
+
+    .details
+    {
+        background-color: #eaeaea;
+    }
+
+    .details .wrapper1 p
+    {
+        font-size: 13px;
+    }
+
+    .details .wrapper1 .btn4
+    {
+        margin-top: 15%;
+    }
+
+    .details .wrapper1 .btn4 a
+    {
+        font-size: 13px;
+    }
    
 }
 
@@ -592,6 +674,16 @@ a{
     .cars
     {
         display: none;
+    }
+
+    .details
+    {
+        padding: 0% 0 15% 0;
+    }
+
+    .details .wrapper1
+    {
+        margin-top: 25%;
     }
 
    
