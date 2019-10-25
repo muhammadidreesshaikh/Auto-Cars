@@ -433,6 +433,110 @@ a{
     background-color: black;
 }
 
+.sale
+{
+    padding: 5% 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #868686;
+}
+
+.sale h1
+{
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+}
+
+.sale p
+{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 0;
+    padding: 2% 5% 0 5%;
+}
+
+.sale .wrapper2 
+{
+    padding-top: 5%;
+}
+
+.sale .wrapper2 .main
+{
+    background-color: black;
+}
+
+.sale .wrapper2 img
+{
+    width: 100%;
+    height: 230px;
+}
+
+.sale .wrapper2 .btn5 a
+{
+    position: absolute;
+    transform: translate(30%, -50px);
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px;
+}
+
+
+.sale .wrapper2 .btn5 a:hover
+{
+    background-color: #2bb673;
+    border: 1px solid #2bb673;
+    color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.sale .wrapper2 .sale-box
+{
+    padding: 15px 0px;
+    margin-left: 5%;
+}
+
+
+.sale .wrapper2 .sale-box .info
+{
+    padding: 0 14px;
+    color: white;
+    font-size: 15px;
+}
+
+.sale .wrapper2 .sale-box .info span
+{
+    color: gray;
+}
+
+.sale .wrapper2 .bt 
+{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sale .wrapper2 .bt a
+{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+}
+
+.sale .wrapper2 .bt a:hover
+{
+    border-bottom: 3px solid red;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
 
 
 
@@ -596,6 +700,22 @@ a{
     {
         font-size: 13px;
     }
+
+    .sale .wrapper2 img
+    {
+        height: 180px;
+    }
+
+    .sale .wrapper2 .sale-box
+    {
+        margin-left: 6%;
+    }
+
+    .sale .wrapper2 .sale-box .info
+    {
+        padding: 0 5px;
+        font-size: 12px;
+    }
    
 }
 
@@ -684,6 +804,11 @@ a{
     .details .wrapper1
     {
         margin-top: 25%;
+    }
+
+    .sale .wrapper2 img
+    {
+        height: 300px;
     }
 
    
