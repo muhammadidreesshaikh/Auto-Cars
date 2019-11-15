@@ -568,13 +568,21 @@ a{
 {
     background-color: #f7f7f7;
     padding-bottom: 10%;
-    box-shadow: 5px 4px 3px grey;
+    box-shadow: 3px 3px 3px grey;
+    overflow: hidden;
 }
 
 .service .wrapper1 img
 {
+    transition: all 0.4s;
     width: 100%;
-    height: 270px;
+    height: 250px;
+    transform: scale(1);
+}
+
+.service .wrapper1:hover img
+{
+    transform: scale(1.1);
 }
 
 .service .wrapper1 h6
@@ -610,6 +618,43 @@ a{
     font-size: 12px;
     padding-left: 5px;
     color: #2bb673;
+}
+
+.option
+{
+    background-color: black;
+    padding: 3% 0;
+    text-align: center;
+}
+
+.option .wrapper1
+{
+    
+}
+
+.option .wrapper1 .iner
+{
+    padding: 0 50px 0 50px;
+    color: white;
+}
+
+.option .iner i
+{
+    font-size: 50px;
+    color: #868686;
+}
+
+.option .iner h1
+{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.option .iner h6
+{
+    font-size: 12px;
+    padding-top: 5px;
+    margin-bottom: 0;
 }
 
 
@@ -811,6 +856,26 @@ a{
     {
         font-size: 16px;
     }
+
+    .option .wrapper1 .iner
+    {
+        padding: 0 20px 0 20px;
+    }
+
+    .option .iner i
+    {
+        font-size: 40px;
+    }
+
+    .option .iner h1
+    {
+        font-size: 20px;
+    }
+
+    .option .iner h6
+    {
+        font-size: 9px;
+    }
    
 }
 
@@ -921,10 +986,20 @@ a{
         margin-top: 10%;
     }
 
+    .service .wrapper1 img
+    {
+        height: 250px;
+    }
+
     .service p
     {
         font-size: 13px;
         padding: 5px 5px 0 5px;
+    }
+
+    .option .wrapper1 .iner
+    {
+        padding: 10% 50px 5% 50px;
     }
 
    
